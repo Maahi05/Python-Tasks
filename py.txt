@@ -1,0 +1,129 @@
+Python: Python is a high level programming language.It is dynamically typed language,easy to learn.used in Ai,automaton and machine learning
+variable : name of the memory locatiom that stores data.
+Data type: Type of the data to be stored in varaible
+
+Integer
+Integer is used to numerical values,binary,octa,hexa values.It is immutable,not iterable.supports all arthmetic operations.
+int1 = int()
+print(int1)
+print(type(int1))
+print(id(int1))
+num1 = 10
+print(num1)
+num2 = -10
+print(num2)
+
+List
+List: It is used to store mixed data types and sournded by square brackets.It is ordered.it is mutuable.supports slicing and indexing.
+li = list()
+print(li)
+li1 = []
+print(li1)
+print(type(li1))
+print(id(li1))
+li2 = [1,2,3,4,5]
+print(li2[0])
+print(li2[-1])
+print("iterating the list")
+for i in li2:
+    print(i)
+print("after concatenation",li2+li3)
+print("after multipling by list*2",li2*2)
+print("nested list")
+li4 = [[1,2],[3,4]]
+print(li4)
+print("indexing of nested list",li4[0][1])
+
+String
+string: Sequence of characters reprsented with double quotes.It is immutable.supports slicing and indexing.Cannot add or once it is created.it is iterable
+str1 = str()
+print(str1)
+print(type(str1))
+print(id(str1))
+str2 = "Maahi"
+print("indexing in string",str2[0])
+str3 = "adusumalli"
+str4 = str2+str3
+print("after concat",str4)
+print("length of string is:",len(str2))
+print("iteration in astring is:")
+for i in str3:
+    print(i)
+print(str2*2)
+
+tuple
+Tuple: it is used to stored ordered data,mixed data types,immutable.we cannot remove or add it.it is sperated by ',".does not supports slicing and indexing
+tup = tuple()
+print(tup)
+print(type(tup))
+print(id(tup))
+tup1 = 1,2
+print(tup1,type(tup1))
+print("length od tuple is",len(tup1))
+print("we can't iterate on tuple")
+tup2 = (1,2,3,4,5)
+print("conact of tupke",tup1+tup2)
+
+set
+Set are used to store unique values.it is unordered,mutuable.we can iterate over sets.does not support indexing.
+se = set()
+print(se)
+print(type(se))
+print(id(se))
+set1 = {1,2,4,5}
+print(set1)
+print("length of set1",len(set1))
+set1.add(6)
+print("After adding a element",set1)
+set1.remove(2)
+print("after removing 2",set1)
+print("ierating in a set")
+for i in set1:
+    print(i)
+
+dicitonary
+dicitonary: it is used to store key and values.it is ordered,mutuable,key can't be duplicate.we will get the values using index.
+dic1 = dict()
+print(dic1)
+print(type(dic1))
+print(id(dic1))
+dict1 = {"a":101,"b":102,"c":103}
+print(dict1)
+print("iterationg a dict")
+for i in dict1:
+    print(i)
+dict1.update({"d":104})
+print(dict1)
+
+mutuable data types:lists,sets,dictionary
+immutable:int,float,string,complex,tuple,boolean
+
+lists,tuples allow duplicate values
+
+Lists,Tuple,Dictionary maintain the insertion order
+
+strings,lists,tuple supports indexing ans slicing
+
+a = 10
+print(type(a))
+se1 = 10+2j
+print(type(se1))
+flo = 5.4
+print(type(flo))
+str1 = "maahi"
+print(type(str1))
+lis1 = [1,2,4,5]
+print(type(lis1))
+tup = (1,2,4,50)
+print(type(tup))
+set1 = {1,2,4,5}
+print(type(set1))
+dic1 = {"a":101,"b":102,"c":103}
+print(type(dic1))
+
+# int: no len(),no indexing and slicling ,no iterating,immuatable
+# str:len(),indexing and slicling ,iterating,ordered,immutable
+# list: len(), indexing,  slicling ,iterating,ordered,mutable
+# tuple: len(), indexing,  slicling ,iterating,ordered,mutable
+# set: len(),no indexing and slicling , iterating,unordered,mutuable
+# dict: len(),no indexing and slicling , iterating,ordered,mutuable
